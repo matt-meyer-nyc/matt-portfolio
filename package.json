@@ -1,7 +1,7 @@
 {
-  "name": "matt-portfolio",
+  "name": "responsive-demo-deploy",
   "version": "1.0.0",
-  "description": "Matt Meyer 2016 Website",
+  "description": "This demo was created with guidance from Jonas Schmedtmann's 'Build Responsive Real World Websites with HTLM5 and CSS3'",
   "main": "index.js",
   "scripts": {
       "production": "webpack -p",

@@ -134,6 +134,9 @@
   .works-step {margin-bottom: 20px; }
   .works-step:last-of-type { margin-bottom: 20px;}
 
+  .sticky .logo-black { top: -5px; }
+
+
 }
 
 /*small phones
@@ -141,4 +144,7 @@
 @media only screen and (max-width: 480px) {
   section { padding: 25px 0; }
   .contact-form { width: 100%; }
+  .hero-text-box-mobile { display: block; }
+  .hero-text-box{ display: none; }
+  .sticky .logo-black { top: -5px; }
 }

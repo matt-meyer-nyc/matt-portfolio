@@ -149,7 +149,16 @@
 @media only screen and (max-width: 480px) {
   section { padding: 25px 0; }
   .contact-form { width: 100%; }
-  .hero-text-box-mobile { display: block; }
+  /*.hero-text-box-mobile { display: block; }*/
   .hero-text-box{ display: none; }
   .sticky .logo-black { top: -5px; }
+
+.hero-text-box-mobile {
+  display: block;
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }

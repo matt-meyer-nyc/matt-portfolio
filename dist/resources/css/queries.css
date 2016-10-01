@@ -156,9 +156,9 @@
 .hero-text-box-mobile {
   display: block;
   position: absolute;
-  width: 1140px;
+  /*width: 1140px;*/
   top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  left: 10%;
+  /*-webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);*/
 }

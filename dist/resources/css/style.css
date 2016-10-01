@@ -80,7 +80,7 @@ h2 {
   font-size: 240%;
   word-spacing: 4px;
   letter-spacing: 1px;
-}*/*/
+}*/
 
 h3 {
   font-size: 110%;
@@ -95,6 +95,10 @@ h2:after {
   width: 100px;
   margin: 0 auto;
   margin-top: 30px;
+}
+
+.hero-text-box-mobile {
+  display:none;
 }
 
 /*---PARAGRAPHS------*/
@@ -208,13 +212,12 @@ header {
 }
 
 .hero-text-box {
-    position: absolute;
-    width: 1140px;
-    top: 70%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -70%);
-            transform: translate(-50%, -70%);
-  }
+  position: absolute;
+  width: 1140px;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -70%);
+          transform: translate(-50%, -70%);
 }
 
 .logo {
@@ -499,7 +502,7 @@ cite img {
 /*PRICING*/
 /*------------------*/
 
-.section-plans {
+/*.section-plans {
   background-color: #f4f4f4;
 }
 
@@ -509,7 +512,7 @@ cite img {
   width: 90%;
   margin-left: 5%;
   /*box shadow #'s ||x-axis | y-axis | blur | color'||*/
-  box-shadow: 0 2px 2px #efefef;
+  /*box-shadow: 0 2px 2px #efefef;
 }
 
 .plan-box div {
@@ -526,9 +529,9 @@ cite img {
 .plan-box div:last-child {
   text-align: center;
   border: 0;
-}
+}*/
 
-.plan-price {
+/*.plan-price {
   font-size: 300%;
   margin-bottom: 10px;
   font-weight: 100;
@@ -550,7 +553,7 @@ cite img {
 
 .plan-box ul li {
   padding: 5px 0;
-}
+}*/
 
 
 /*------------------*/
@@ -580,6 +583,10 @@ input[type=checkbox] {
   margin: 10px 5px 10px 0;
 }
 
+*:focus {
+  outline: none;
+}
+
 #submit_form {
     background-color: #fff;
     border: 1px solid #40b7bf;
@@ -594,15 +601,12 @@ input[type=checkbox] {
     transition: background-color 0.2s; border: 0.2s,; color: 0.2s
   }
 
-#submit_form:hover {
-  background-color: #40b7bf;
-  color: #fff;
-}
+  #submit_form:hover {
+    background-color: #40b7bf;
+    color: #fff;
+  }
 
 
-*:focus {
-  outline: none;
-}
 
 /*------------------*/
 /*FOOTER*/
